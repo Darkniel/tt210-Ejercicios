@@ -1,0 +1,102 @@
+body{
+    background-color: yellowgreen;
+    margin: 0;
+}
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    width: 100dvw;
+    height: 120px;
+    justify-content: space-evenly;
+    text-align: center; 
+    align-items: center;
+}
+p{
+    margin: 0;
+    padding: 10px 0px;
+}
+main{
+    background-color: cornsilk;
+    height: 500px;
+}
+
+
+.suma{
+    background-color: aquamarine;
+    
+    height: 100px;
+   
+    
+}
+
+
+form{
+    background-color: aqua;
+    width: 50vw;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+.num{
+   
+    display: flex;
+
+}
+input{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.resultado{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.botonresultado{
+    border-radius: 15px;
+    width: 200px;
+    font-size: 24px;
+    box-shadow: 3px 3px 5px royalblue;
+    background-color: blanchedalmond;
+    border: solid darkkhaki 2px;
+    color:darkmagenta;
+}
+footer{
+    background-color: teal;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.perfil{
+    background-color: black;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    display: flex;
+    background-color: aqua;
+    width: 300px;
+    justify-content: space-around;
+}
+.perfil img{
+    height: 70%;
+    border-radius: 20%;
+    border: solid black 4px;
+}

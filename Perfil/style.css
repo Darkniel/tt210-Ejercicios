@@ -1,0 +1,28 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f6;
+
+
+}    
+
+h1{
+    color:   rgb(14, 4, 58);
+    background-color: blanchedalmond;
+    margin: 1px;
+    padding: 15px;
+}
+
+.contenido_Perfil h3{
+
+color: rgb(14, 4, 58);
+
+}
+.imgPresentacion{
+
+    background-color: #385170;
+    height: 10%;
+    width: 10%;
+    margin: 5%;
+    padding: 13px;
+}
